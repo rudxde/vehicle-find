@@ -8,26 +8,26 @@ const vssOptions = [
     "S01CX", // SPORT BOOST
     "S02VL", // Variable Sportlenkung
     "S02VF", // Adaptives M Fahrwerk
-    "S033B", // M Sportpaket Pro
+    // "S033B", // M Sportpaket Pro
     "S0494", // Sitzheizung für Fahrer und Beifahrer
-    "S0248", // Lenkradheizung
+    // "S0248", // Lenkradheizung
     "S0459", // Sitzverstellung elektrisch mit Memory
-    "S0418", // Gepäckraumpaket
+    // "S0418", // Gepäckraumpaket
     "S05DN", // Parking Assistant Plus
     "S05AU", // Driving Assistant Professional
     "S03AC", // Anhängerkupplung
     "S0688", // Harman Kardon Surround Sound System
     // "S05AL", // Active Protection
-    "S03KA", // Akustikverglasung
-    "S04UR", // Ambientes Licht
+    // "S03KA", // Akustikverglasung
+    // "S04UR", // Ambientes Licht
     "S0322", // Komfortzugang
-    "S0420", // Sonnenschutzverglasung
+    // "S0420", // Sonnenschutzverglasung
     "S0552", // Adaptiver LED-Scheinwerfer
     "S0760", // M Hochglanz Shadow Line
     "S0488", // Lordosenstütze für Fahrer und Beifahrer
 ];
 
-const input = JSON.parse(await readFile('results.json', 'utf-8'));
+const input = JSON.parse(await readFile('results2.json', 'utf-8'));
 
 /**
  * Calculates the great-circle distance between two coordinates using the Haversine formula.
